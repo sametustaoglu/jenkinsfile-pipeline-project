@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('run') {
             steps {
-                echo 'Samet to Reinvent Yourself xx'
+                echo 'Samet '
                 sh 'python --version'
                 sh 'python pipeline.py'
             }
